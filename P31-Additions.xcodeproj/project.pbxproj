@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B23FA4811E6422F00EF52C2 /* TTFadingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23FA4611E6422F00EF52C2 /* TTFadingImageView.h */; };
+		4B23FA4911E6422F00EF52C2 /* TTFadingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23FA4711E6422F00EF52C2 /* TTFadingImageView.m */; };
+		4B23FAEB11E6473800EF52C2 /* TTFadingButtonContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23FAE911E6473800EF52C2 /* TTFadingButtonContent.h */; };
+		4B23FAEC11E6473800EF52C2 /* TTFadingButtonContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23FAEA11E6473800EF52C2 /* TTFadingButtonContent.m */; };
+		4B23FAF711E647F600EF52C2 /* TTButtonContent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23FAF611E647F600EF52C2 /* TTButtonContent.h */; };
+		4B23FAFE11E6483400EF52C2 /* TTFadingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B23FAFC11E6483400EF52C2 /* TTFadingButton.h */; };
+		4B23FAFF11E6483400EF52C2 /* TTFadingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B23FAFD11E6483400EF52C2 /* TTFadingButton.m */; };
+		AA747D9F0F9514B9006C5449 /* P31_Additions_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* P31_Additions_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		C64F345611BC4BC400156BCB /* TTBaseNavigationControllerCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C64F345411BC4BC400156BCB /* TTBaseNavigationControllerCategory.h */; };
+		C64F345711BC4BC400156BCB /* TTBaseNavigationControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F345511BC4BC400156BCB /* TTBaseNavigationControllerCategory.m */; };
+		C6EFE8C411964EA4000DF055 /* P31.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8A511964EA4000DF055 /* P31.h */; };
+		C6EFE8C511964EA4000DF055 /* P31StyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8A611964EA4000DF055 /* P31StyleSheet.h */; };
+		C6EFE8C611964EA4000DF055 /* P31StyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8A711964EA4000DF055 /* P31StyleSheet.m */; };
+		C6EFE8C711964EA4000DF055 /* NSStringCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8A911964EA4000DF055 /* NSStringCategory.h */; };
+		C6EFE8C811964EA4000DF055 /* NSStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8AA11964EA4000DF055 /* NSStringCategory.m */; };
+		C6EFE8C911964EA4000DF055 /* TTLauncherViewCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8AB11964EA4000DF055 /* TTLauncherViewCategory.h */; };
+		C6EFE8CA11964EA4000DF055 /* TTLauncherViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8AC11964EA4000DF055 /* TTLauncherViewCategory.m */; };
+		C6EFE8CB11964EA4000DF055 /* TTNavigatorCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8AD11964EA4000DF055 /* TTNavigatorCategory.h */; };
+		C6EFE8CC11964EA4000DF055 /* TTNavigatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8AE11964EA4000DF055 /* TTNavigatorCategory.m */; };
+		C6EFE8CD11964EA4000DF055 /* TTTableViewCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8AF11964EA4000DF055 /* TTTableViewCategory.h */; };
+		C6EFE8CE11964EA4000DF055 /* TTTableViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8B011964EA4000DF055 /* TTTableViewCategory.m */; };
+		C6EFE8CF11964EA4000DF055 /* TTTableViewDelegateCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8B111964EA4000DF055 /* TTTableViewDelegateCategory.h */; };
+		C6EFE8D011964EA4000DF055 /* TTTableViewDelegateCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8B211964EA4000DF055 /* TTTableViewDelegateCategory.m */; };
+		C6EFE8D111964EA4000DF055 /* P31PopupButtonCalloutShape.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8B511964EA4000DF055 /* P31PopupButtonCalloutShape.h */; };
+		C6EFE8D211964EA4000DF055 /* P31PopupButtonCalloutShape.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8B611964EA4000DF055 /* P31PopupButtonCalloutShape.m */; };
+		C6EFE8D311964EA4000DF055 /* P31RadialShine.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8B711964EA4000DF055 /* P31RadialShine.h */; };
+		C6EFE8D411964EA4000DF055 /* P31RadialShine.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8B811964EA4000DF055 /* P31RadialShine.m */; };
+		C6EFE8D511964EA4000DF055 /* P31AlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8BA11964EA4000DF055 /* P31AlertView.h */; };
+		C6EFE8D611964EA4000DF055 /* P31AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8BB11964EA4000DF055 /* P31AlertView.m */; };
+		C6EFE8D711964EA4000DF055 /* P31GradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8BC11964EA4000DF055 /* P31GradientView.h */; };
+		C6EFE8D811964EA4000DF055 /* P31GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8BD11964EA4000DF055 /* P31GradientView.m */; };
+		C6EFE8D911964EA4000DF055 /* P31LoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8BE11964EA4000DF055 /* P31LoadingView.h */; };
+		C6EFE8DA11964EA4000DF055 /* P31LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8BF11964EA4000DF055 /* P31LoadingView.m */; };
+		C6EFE8DB11964EA4000DF055 /* P31PopupButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8C011964EA4000DF055 /* P31PopupButtonView.h */; };
+		C6EFE8DC11964EA4000DF055 /* P31PopupButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8C111964EA4000DF055 /* P31PopupButtonView.m */; };
+		C6EFE8DD11964EA4000DF055 /* P31Window.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE8C211964EA4000DF055 /* P31Window.h */; };
+		C6EFE8DE11964EA4000DF055 /* P31Window.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE8C311964EA4000DF055 /* P31Window.m */; };
+		C6EFE91811964F46000DF055 /* libThree20UINavigator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE91511964F3D000DF055 /* libThree20UINavigator.a */; };
+		C6EFE91911964F49000DF055 /* libThree20UICommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE90C11964F38000DF055 /* libThree20UICommon.a */; };
+		C6EFE91A11964F4C000DF055 /* libThree20UI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE90311964F32000DF055 /* libThree20UI.a */; };
+		C6EFE91B11964F4F000DF055 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE8FA11964F2D000DF055 /* libThree20Style.a */; };
+		C6EFE91C11964F52000DF055 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE8F111964F23000DF055 /* libThree20Network.a */; };
+		C6EFE91D11964F55000DF055 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE8E811964F1D000DF055 /* libThree20Core.a */; };
+		C6EFE94611965543000DF055 /* TTTableViewControllerCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE94411965543000DF055 /* TTTableViewControllerCategory.h */; };
+		C6EFE94711965543000DF055 /* TTTableViewControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE94511965543000DF055 /* TTTableViewControllerCategory.m */; };
+		C6EFE9531196574E000DF055 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EFE9521196574E000DF055 /* UIKit.framework */; };
+		C6EFE983119658BA000DF055 /* TTViewControllerCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C6EFE981119658BA000DF055 /* TTViewControllerCategory.h */; };
+		C6EFE984119658BA000DF055 /* TTViewControllerCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C6EFE982119658BA000DF055 /* TTViewControllerCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6EFE8E711964F1D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		C6EFE8E911964F1D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE8F011964F23000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+		C6EFE8F211964F23000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE8F911964F2D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20Style;
+		};
+		C6EFE8FB11964F2D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE90211964F32000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UI;
+		};
+		C6EFE90411964F32000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE90B11964F38000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UICommon;
+		};
+		C6EFE90D11964F38000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE91411964F3D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20UINavigator;
+		};
+		C6EFE91611964F3D000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		C6EFE92011964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UICommon;
+		};
+		C6EFE92211964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UINavigator;
+		};
+		C6EFE92411964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20UI;
+		};
+		C6EFE92611964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Core;
+		};
+		C6EFE92811964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Network;
+		};
+		C6EFE92A11964F68000DF055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20Style;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B23FA4611E6422F00EF52C2 /* TTFadingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFadingImageView.h; sourceTree = "<group>"; };
+		4B23FA4711E6422F00EF52C2 /* TTFadingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFadingImageView.m; sourceTree = "<group>"; };
+		4B23FAE911E6473800EF52C2 /* TTFadingButtonContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFadingButtonContent.h; sourceTree = "<group>"; };
+		4B23FAEA11E6473800EF52C2 /* TTFadingButtonContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFadingButtonContent.m; sourceTree = "<group>"; };
+		4B23FAF611E647F600EF52C2 /* TTButtonContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTButtonContent.h; path = ../three20/src/Three20UI/Headers/TTButtonContent.h; sourceTree = SOURCE_ROOT; };
+		4B23FAFC11E6483400EF52C2 /* TTFadingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFadingButton.h; sourceTree = "<group>"; };
+		4B23FAFD11E6483400EF52C2 /* TTFadingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFadingButton.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* P31_Additions_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31_Additions_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C64F345411BC4BC400156BCB /* TTBaseNavigationControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTBaseNavigationControllerCategory.h; sourceTree = "<group>"; };
+		C64F345511BC4BC400156BCB /* TTBaseNavigationControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTBaseNavigationControllerCategory.m; sourceTree = "<group>"; };
+		C6EFE8A511964EA4000DF055 /* P31.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31.h; sourceTree = "<group>"; };
+		C6EFE8A611964EA4000DF055 /* P31StyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31StyleSheet.h; sourceTree = "<group>"; };
+		C6EFE8A711964EA4000DF055 /* P31StyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31StyleSheet.m; sourceTree = "<group>"; };
+		C6EFE8A911964EA4000DF055 /* NSStringCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringCategory.h; sourceTree = "<group>"; };
+		C6EFE8AA11964EA4000DF055 /* NSStringCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringCategory.m; sourceTree = "<group>"; };
+		C6EFE8AB11964EA4000DF055 /* TTLauncherViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLauncherViewCategory.h; sourceTree = "<group>"; };
+		C6EFE8AC11964EA4000DF055 /* TTLauncherViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLauncherViewCategory.m; sourceTree = "<group>"; };
+		C6EFE8AD11964EA4000DF055 /* TTNavigatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTNavigatorCategory.h; sourceTree = "<group>"; };
+		C6EFE8AE11964EA4000DF055 /* TTNavigatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNavigatorCategory.m; sourceTree = "<group>"; };
+		C6EFE8AF11964EA4000DF055 /* TTTableViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewCategory.h; sourceTree = "<group>"; };
+		C6EFE8B011964EA4000DF055 /* TTTableViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewCategory.m; sourceTree = "<group>"; };
+		C6EFE8B111964EA4000DF055 /* TTTableViewDelegateCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewDelegateCategory.h; sourceTree = "<group>"; };
+		C6EFE8B211964EA4000DF055 /* TTTableViewDelegateCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewDelegateCategory.m; sourceTree = "<group>"; };
+		C6EFE8B311964EA4000DF055 /* Prime31.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Prime31.bundle; sourceTree = "<group>"; };
+		C6EFE8B511964EA4000DF055 /* P31PopupButtonCalloutShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31PopupButtonCalloutShape.h; sourceTree = "<group>"; };
+		C6EFE8B611964EA4000DF055 /* P31PopupButtonCalloutShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31PopupButtonCalloutShape.m; sourceTree = "<group>"; };
+		C6EFE8B711964EA4000DF055 /* P31RadialShine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31RadialShine.h; sourceTree = "<group>"; };
+		C6EFE8B811964EA4000DF055 /* P31RadialShine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31RadialShine.m; sourceTree = "<group>"; };
+		C6EFE8BA11964EA4000DF055 /* P31AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31AlertView.h; sourceTree = "<group>"; };
+		C6EFE8BB11964EA4000DF055 /* P31AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31AlertView.m; sourceTree = "<group>"; };
+		C6EFE8BC11964EA4000DF055 /* P31GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31GradientView.h; sourceTree = "<group>"; };
+		C6EFE8BD11964EA4000DF055 /* P31GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31GradientView.m; sourceTree = "<group>"; };
+		C6EFE8BE11964EA4000DF055 /* P31LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31LoadingView.h; sourceTree = "<group>"; };
+		C6EFE8BF11964EA4000DF055 /* P31LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31LoadingView.m; sourceTree = "<group>"; };
+		C6EFE8C011964EA4000DF055 /* P31PopupButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31PopupButtonView.h; sourceTree = "<group>"; };
+		C6EFE8C111964EA4000DF055 /* P31PopupButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31PopupButtonView.m; sourceTree = "<group>"; };
+		C6EFE8C211964EA4000DF055 /* P31Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P31Window.h; sourceTree = "<group>"; };
+		C6EFE8C311964EA4000DF055 /* P31Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = P31Window.m; sourceTree = "<group>"; };
+		C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../three20/src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../three20/src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Style.xcodeproj; path = ../three20/src/Three20Style/Three20Style.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UI.xcodeproj; path = ../three20/src/Three20UI/Three20UI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UICommon.xcodeproj; path = ../three20/src/Three20UICommon/Three20UICommon.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20UINavigator.xcodeproj; path = ../three20/src/Three20UINavigator/Three20UINavigator.xcodeproj; sourceTree = SOURCE_ROOT; };
+		C6EFE94411965543000DF055 /* TTTableViewControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewControllerCategory.h; sourceTree = "<group>"; };
+		C6EFE94511965543000DF055 /* TTTableViewControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewControllerCategory.m; sourceTree = "<group>"; };
+		C6EFE9521196574E000DF055 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6EFE981119658BA000DF055 /* TTViewControllerCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTViewControllerCategory.h; sourceTree = "<group>"; };
+		C6EFE982119658BA000DF055 /* TTViewControllerCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTViewControllerCategory.m; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libP31_Additions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libP31_Additions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				C6EFE91811964F46000DF055 /* libThree20UINavigator.a in Frameworks */,
+				C6EFE91911964F49000DF055 /* libThree20UICommon.a in Frameworks */,
+				C6EFE91A11964F4C000DF055 /* libThree20UI.a in Frameworks */,
+				C6EFE91B11964F4F000DF055 /* libThree20Style.a in Frameworks */,
+				C6EFE91C11964F52000DF055 /* libThree20Network.a in Frameworks */,
+				C6EFE91D11964F55000DF055 /* libThree20Core.a in Frameworks */,
+				C6EFE9531196574E000DF055 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libP31_Additions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* P31-Additions */ = {
+			isa = PBXGroup;
+			children = (
+				4B23FAF511E647D400EF52C2 /* TTPrivateIncludes */,
+				C6EFE8A311964EA4000DF055 /* P31-Additions */,
+				C6EFE8E111964F0A000DF055 /* Dependencies */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = "P31-Additions";
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				C6EFE9521196574E000DF055 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* P31_Additions_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4B23FA4511E6421D00EF52C2 /* TTSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				4B23FA4611E6422F00EF52C2 /* TTFadingImageView.h */,
+				4B23FA4711E6422F00EF52C2 /* TTFadingImageView.m */,
+				4B23FAE911E6473800EF52C2 /* TTFadingButtonContent.h */,
+				4B23FAEA11E6473800EF52C2 /* TTFadingButtonContent.m */,
+				4B23FAFC11E6483400EF52C2 /* TTFadingButton.h */,
+				4B23FAFD11E6483400EF52C2 /* TTFadingButton.m */,
+			);
+			path = TTSubclasses;
+			sourceTree = "<group>";
+		};
+		4B23FAF511E647D400EF52C2 /* TTPrivateIncludes */ = {
+			isa = PBXGroup;
+			children = (
+				4B23FAF611E647F600EF52C2 /* TTButtonContent.h */,
+			);
+			name = TTPrivateIncludes;
+			sourceTree = "<group>";
+		};
+		C6EFE8A311964EA4000DF055 /* P31-Additions */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8A811964EA4000DF055 /* P31Categories */,
+				C6EFE8A411964EA4000DF055 /* Global */,
+				C6EFE8B411964EA4000DF055 /* Style */,
+				C6EFE8B911964EA4000DF055 /* Views */,
+				4B23FA4511E6421D00EF52C2 /* TTSubclasses */,
+				C6EFE8B311964EA4000DF055 /* Prime31.bundle */,
+			);
+			path = "P31-Additions";
+			sourceTree = "<group>";
+		};
+		C6EFE8A411964EA4000DF055 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8A511964EA4000DF055 /* P31.h */,
+				C6EFE8A611964EA4000DF055 /* P31StyleSheet.h */,
+				C6EFE8A711964EA4000DF055 /* P31StyleSheet.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C6EFE8A811964EA4000DF055 /* P31Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C64F345411BC4BC400156BCB /* TTBaseNavigationControllerCategory.h */,
+				C64F345511BC4BC400156BCB /* TTBaseNavigationControllerCategory.m */,
+				C6EFE8A911964EA4000DF055 /* NSStringCategory.h */,
+				C6EFE8AA11964EA4000DF055 /* NSStringCategory.m */,
+				C6EFE8AB11964EA4000DF055 /* TTLauncherViewCategory.h */,
+				C6EFE8AC11964EA4000DF055 /* TTLauncherViewCategory.m */,
+				C6EFE8AD11964EA4000DF055 /* TTNavigatorCategory.h */,
+				C6EFE8AE11964EA4000DF055 /* TTNavigatorCategory.m */,
+				C6EFE8AF11964EA4000DF055 /* TTTableViewCategory.h */,
+				C6EFE8B011964EA4000DF055 /* TTTableViewCategory.m */,
+				C6EFE8B111964EA4000DF055 /* TTTableViewDelegateCategory.h */,
+				C6EFE8B211964EA4000DF055 /* TTTableViewDelegateCategory.m */,
+				C6EFE94411965543000DF055 /* TTTableViewControllerCategory.h */,
+				C6EFE94511965543000DF055 /* TTTableViewControllerCategory.m */,
+				C6EFE981119658BA000DF055 /* TTViewControllerCategory.h */,
+				C6EFE982119658BA000DF055 /* TTViewControllerCategory.m */,
+			);
+			path = P31Categories;
+			sourceTree = "<group>";
+		};
+		C6EFE8B411964EA4000DF055 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8B511964EA4000DF055 /* P31PopupButtonCalloutShape.h */,
+				C6EFE8B611964EA4000DF055 /* P31PopupButtonCalloutShape.m */,
+				C6EFE8B711964EA4000DF055 /* P31RadialShine.h */,
+				C6EFE8B811964EA4000DF055 /* P31RadialShine.m */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		C6EFE8B911964EA4000DF055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8BA11964EA4000DF055 /* P31AlertView.h */,
+				C6EFE8BB11964EA4000DF055 /* P31AlertView.m */,
+				C6EFE8BC11964EA4000DF055 /* P31GradientView.h */,
+				C6EFE8BD11964EA4000DF055 /* P31GradientView.m */,
+				C6EFE8BE11964EA4000DF055 /* P31LoadingView.h */,
+				C6EFE8BF11964EA4000DF055 /* P31LoadingView.m */,
+				C6EFE8C011964EA4000DF055 /* P31PopupButtonView.h */,
+				C6EFE8C111964EA4000DF055 /* P31PopupButtonView.m */,
+				C6EFE8C211964EA4000DF055 /* P31Window.h */,
+				C6EFE8C311964EA4000DF055 /* P31Window.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6EFE8E111964F0A000DF055 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */,
+				C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */,
+				C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */,
+				C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */,
+				C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */,
+				C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		C6EFE8E311964F1D000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8E811964F1D000DF055 /* libThree20Core.a */,
+				C6EFE8EA11964F1D000DF055 /* CoreUnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EFE8EC11964F23000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8F111964F23000DF055 /* libThree20Network.a */,
+				C6EFE8F311964F23000DF055 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EFE8F511964F2D000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE8FA11964F2D000DF055 /* libThree20Style.a */,
+				C6EFE8FC11964F2D000DF055 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EFE8FE11964F32000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE90311964F32000DF055 /* libThree20UI.a */,
+				C6EFE90511964F32000DF055 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EFE90711964F38000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE90C11964F38000DF055 /* libThree20UICommon.a */,
+				C6EFE90E11964F38000DF055 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6EFE91011964F3D000DF055 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6EFE91511964F3D000DF055 /* libThree20UINavigator.a */,
+				C6EFE91711964F3D000DF055 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* P31_Additions_Prefix.pch in Headers */,
+				C6EFE8C411964EA4000DF055 /* P31.h in Headers */,
+				C6EFE8C511964EA4000DF055 /* P31StyleSheet.h in Headers */,
+				C6EFE8C711964EA4000DF055 /* NSStringCategory.h in Headers */,
+				C6EFE8C911964EA4000DF055 /* TTLauncherViewCategory.h in Headers */,
+				C6EFE8CB11964EA4000DF055 /* TTNavigatorCategory.h in Headers */,
+				C6EFE8CD11964EA4000DF055 /* TTTableViewCategory.h in Headers */,
+				C6EFE8CF11964EA4000DF055 /* TTTableViewDelegateCategory.h in Headers */,
+				C6EFE8D111964EA4000DF055 /* P31PopupButtonCalloutShape.h in Headers */,
+				C6EFE8D311964EA4000DF055 /* P31RadialShine.h in Headers */,
+				C6EFE8D511964EA4000DF055 /* P31AlertView.h in Headers */,
+				C6EFE8D711964EA4000DF055 /* P31GradientView.h in Headers */,
+				C6EFE8D911964EA4000DF055 /* P31LoadingView.h in Headers */,
+				C6EFE8DB11964EA4000DF055 /* P31PopupButtonView.h in Headers */,
+				C6EFE8DD11964EA4000DF055 /* P31Window.h in Headers */,
+				C6EFE94611965543000DF055 /* TTTableViewControllerCategory.h in Headers */,
+				C6EFE983119658BA000DF055 /* TTViewControllerCategory.h in Headers */,
+				C64F345611BC4BC400156BCB /* TTBaseNavigationControllerCategory.h in Headers */,
+				4B23FA4811E6422F00EF52C2 /* TTFadingImageView.h in Headers */,
+				4B23FAEB11E6473800EF52C2 /* TTFadingButtonContent.h in Headers */,
+				4B23FAF711E647F600EF52C2 /* TTButtonContent.h in Headers */,
+				4B23FAFE11E6483400EF52C2 /* TTFadingButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* P31-Additions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "P31-Additions" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6EFE92111964F68000DF055 /* PBXTargetDependency */,
+				C6EFE92311964F68000DF055 /* PBXTargetDependency */,
+				C6EFE92511964F68000DF055 /* PBXTargetDependency */,
+				C6EFE92711964F68000DF055 /* PBXTargetDependency */,
+				C6EFE92911964F68000DF055 /* PBXTargetDependency */,
+				C6EFE92B11964F68000DF055 /* PBXTargetDependency */,
+			);
+			name = "P31-Additions";
+			productName = "P31-Additions";
+			productReference = D2AAC07E0554694100DB518D /* libP31_Additions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "P31-Additions" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* P31-Additions */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C6EFE8E311964F1D000DF055 /* Products */;
+					ProjectRef = C6EFE8E211964F1D000DF055 /* Three20Core.xcodeproj */;
+				},
+				{
+					ProductGroup = C6EFE8EC11964F23000DF055 /* Products */;
+					ProjectRef = C6EFE8EB11964F23000DF055 /* Three20Network.xcodeproj */;
+				},
+				{
+					ProductGroup = C6EFE8F511964F2D000DF055 /* Products */;
+					ProjectRef = C6EFE8F411964F2D000DF055 /* Three20Style.xcodeproj */;
+				},
+				{
+					ProductGroup = C6EFE8FE11964F32000DF055 /* Products */;
+					ProjectRef = C6EFE8FD11964F32000DF055 /* Three20UI.xcodeproj */;
+				},
+				{
+					ProductGroup = C6EFE90711964F38000DF055 /* Products */;
+					ProjectRef = C6EFE90611964F38000DF055 /* Three20UICommon.xcodeproj */;
+				},
+				{
+					ProductGroup = C6EFE91011964F3D000DF055 /* Products */;
+					ProjectRef = C6EFE90F11964F3D000DF055 /* Three20UINavigator.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* P31-Additions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C6EFE8E811964F1D000DF055 /* libThree20Core.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Core.a;
+			remoteRef = C6EFE8E711964F1D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE8EA11964F1D000DF055 /* CoreUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreUnitTests.octest;
+			remoteRef = C6EFE8E911964F1D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE8F111964F23000DF055 /* libThree20Network.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Network.a;
+			remoteRef = C6EFE8F011964F23000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE8F311964F23000DF055 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = C6EFE8F211964F23000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE8FA11964F2D000DF055 /* libThree20Style.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20Style.a;
+			remoteRef = C6EFE8F911964F2D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE8FC11964F2D000DF055 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = C6EFE8FB11964F2D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE90311964F32000DF055 /* libThree20UI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UI.a;
+			remoteRef = C6EFE90211964F32000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE90511964F32000DF055 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = C6EFE90411964F32000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE90C11964F38000DF055 /* libThree20UICommon.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UICommon.a;
+			remoteRef = C6EFE90B11964F38000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE90E11964F38000DF055 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = C6EFE90D11964F38000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE91511964F3D000DF055 /* libThree20UINavigator.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20UINavigator.a;
+			remoteRef = C6EFE91411964F3D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C6EFE91711964F3D000DF055 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = C6EFE91611964F3D000DF055 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6EFE8C611964EA4000DF055 /* P31StyleSheet.m in Sources */,
+				C6EFE8C811964EA4000DF055 /* NSStringCategory.m in Sources */,
+				C6EFE8CA11964EA4000DF055 /* TTLauncherViewCategory.m in Sources */,
+				C6EFE8CC11964EA4000DF055 /* TTNavigatorCategory.m in Sources */,
+				C6EFE8CE11964EA4000DF055 /* TTTableViewCategory.m in Sources */,
+				C6EFE8D011964EA4000DF055 /* TTTableViewDelegateCategory.m in Sources */,
+				C6EFE8D211964EA4000DF055 /* P31PopupButtonCalloutShape.m in Sources */,
+				C6EFE8D411964EA4000DF055 /* P31RadialShine.m in Sources */,
+				C6EFE8D611964EA4000DF055 /* P31AlertView.m in Sources */,
+				C6EFE8D811964EA4000DF055 /* P31GradientView.m in Sources */,
+				C6EFE8DA11964EA4000DF055 /* P31LoadingView.m in Sources */,
+				C6EFE8DC11964EA4000DF055 /* P31PopupButtonView.m in Sources */,
+				C6EFE8DE11964EA4000DF055 /* P31Window.m in Sources */,
+				C6EFE94711965543000DF055 /* TTTableViewControllerCategory.m in Sources */,
+				C6EFE984119658BA000DF055 /* TTViewControllerCategory.m in Sources */,
+				C64F345711BC4BC400156BCB /* TTBaseNavigationControllerCategory.m in Sources */,
+				4B23FA4911E6422F00EF52C2 /* TTFadingImageView.m in Sources */,
+				4B23FAEC11E6473800EF52C2 /* TTFadingButtonContent.m in Sources */,
+				4B23FAFF11E6483400EF52C2 /* TTFadingButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6EFE92111964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UICommon;
+			targetProxy = C6EFE92011964F68000DF055 /* PBXContainerItemProxy */;
+		};
+		C6EFE92311964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UINavigator;
+			targetProxy = C6EFE92211964F68000DF055 /* PBXContainerItemProxy */;
+		};
+		C6EFE92511964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20UI;
+			targetProxy = C6EFE92411964F68000DF055 /* PBXContainerItemProxy */;
+		};
+		C6EFE92711964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Core;
+			targetProxy = C6EFE92611964F68000DF055 /* PBXContainerItemProxy */;
+		};
+		C6EFE92911964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Network;
+			targetProxy = C6EFE92811964F68000DF055 /* PBXContainerItemProxy */;
+		};
+		C6EFE92B11964F68000DF055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20Style;
+			targetProxy = C6EFE92A11964F68000DF055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/P31_Additions.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = P31_Additions_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"../../iPhoneSVNCode/three20/Build/Products/three20/**",
+					"../../iPhoneSVNCode/three20/src/Three20/Headers/**",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = P31_Additions;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/P31_Additions.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = P31_Additions_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = P31_Additions;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "P31-Additions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "P31-Additions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

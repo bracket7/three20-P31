@@ -1,0 +1,7 @@
+Three20
+=======
+
+Additions to the Three20 library.  To use, make sure "Three20/Three20.h" is in your projects .pch file then just drag the P31-Additions folder into your project
+along with the P31.bundle.
+
+The P31-Additions project included is simply a static library the links in all the Three20 modules.  It serves no real purpose and is just used to test compilation of the files as they are changed.

@@ -1,0 +1,171 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeSDKPreference = iphonesimulator3.1;
+		activeTarget = D2AAC07D0554694100DB518D /* P31-Additions */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* P31-Additions */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = C6EFE89211964E59000DF055 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1119,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1084,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 299902123;
+			PBXWorkspaceStateSaveDate = 299902123;
+		};
+		sourceControlManager = C6EFE89111964E59000DF055 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	AA747D9E0F9514B9006C5449 /* P31_Additions_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 346}";
+		};
+	};
+	C64F345511BC4BC400156BCB /* TTBaseNavigationControllerCategory.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{5726, 794}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 6829}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 2296}}";
+			sepNavSelRange = "{5589, 0}";
+			sepNavVisRange = "{3460, 2181}";
+		};
+	};
+	C6EFE89111964E59000DF055 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	C6EFE89211964E59000DF055 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	C6EFE8AA11964EA4000DF055 /* NSStringCategory.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{251, 1123}\";\n            s = 0;\n        },\n                {\n            r = \"{1429, 3857}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 5294}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 316}";
+		};
+	};
+	C6EFE8AC11964EA4000DF055 /* TTLauncherViewCategory.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{421, 477}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 906}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{422, 0}";
+			sepNavVisRange = "{0, 430}";
+		};
+	};
+	C6EFE8AE11964EA4000DF055 /* TTNavigatorCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRange = "{0, 462}";
+		};
+	};
+	C6EFE8B011964EA4000DF055 /* TTTableViewCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 792}}";
+			sepNavSelRange = "{854, 0}";
+			sepNavVisRange = "{0, 906}";
+		};
+	};
+	C6EFE8B211964EA4000DF055 /* TTTableViewDelegateCategory.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{325, 1912}\";\n            s = 0;\n        },\n                {\n            r = \"{2339, 334}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 2681}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{326, 0}";
+			sepNavVisRange = "{0, 437}";
+		};
+	};
+	C6EFE8BB11964EA4000DF055 /* P31AlertView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2748, 7695}}";
+			sepNavSelRange = "{4351, 1387}";
+			sepNavVisRange = "{4325, 2015}";
+		};
+	};
+	C6EFE94411965543000DF055 /* TTTableViewControllerCategory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{185, 0}";
+			sepNavVisRange = "{0, 203}";
+		};
+	};
+	C6EFE94511965543000DF055 /* TTTableViewControllerCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{926, 0}";
+			sepNavVisRange = "{0, 933}";
+		};
+	};
+	C6EFE981119658BA000DF055 /* TTViewControllerCategory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 654}}";
+			sepNavSelRange = "{147, 0}";
+			sepNavVisRange = "{0, 192}";
+		};
+	};
+	C6EFE982119658BA000DF055 /* TTViewControllerCategory.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{242, 227}\";\n            s = 0;\n        },\n                {\n            r = \"{551, 686}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 1245}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1302, 690}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{0, 334}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* P31-Additions */ = {
+		activeExec = 0;
+	};
+}
